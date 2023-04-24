@@ -1,0 +1,235 @@
+<html>
+    <head>
+        <title>my project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                direction: ltr;
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #3acec3;
+            }
+            ul , li {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .overflow{
+                overflow: hidden;
+            }
+            .wraper{
+                width: 1300px;
+                margin: 0 auto;
+            }
+            .logo {
+                float: left
+            }
+            .menu {
+                float: right;
+            }
+            .menu li {
+                float: left;
+            }
+            .header .menu ul li a {
+                display: block;
+                width: 100%;
+                padding: 28px;
+                font-size: 15px;
+            }
+            .header .menu ul li a:hover {
+                color: #093a58;
+            }
+            .header .logo h1{
+                font-size: 20px;
+                text-transform: capitalize;
+                margin-top: 25px;
+                color: #093a58;
+            }
+            .header {
+                position: fixed;
+                width: 100%;
+                background: #ffffff;
+                z-index: 1 ;
+            }
+            .hero-slider {
+                background: #3acec3;
+                text-align: center;
+                margin-bottom: 50px;
+                padding: 120px 0 50px 0;
+                color: #ffffff;
+                width: 100%;
+            }
+            .hero-slider img {
+                width: 150px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+            }
+            .hero-slider h2 {
+                margin-bottom: 15px;
+            }
+            .hero-slider h3 {
+                margin-bottom: 0;
+            }
+            .column {
+                float: left;
+            }
+            .column1 , .column3 {
+                width: 25%;
+            }
+            .column2 {
+                width: 50%
+            }
+            .content .wraper .column .holder1{
+                margin-right: 30px;
+            }
+            .content .wraper .column .holder3{
+                margin-left: 30px;
+            }
+            .column h2 {
+              font-size: 24px;
+              color: #093a58;
+            }
+            .content .column2 .text-box {
+                position: relative;
+            }
+            .content .column2 .text {
+                position:absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background: rgba(9, 58, 88, 0.9)
+            }
+            .content .column2 img{
+                width: 100%;
+                height: auto;
+            }
+            .content .column2 .text h2{
+                color: #ffffff;
+                text-align: center;
+            }
+            .content .column2 .text p {
+                color: #ffffff;
+                text-align: center;
+                margin: 10px;
+                line-height: 20px;
+            }
+            .content p {
+                line-height: 25px;
+            }
+            .footer {
+                text-align: center;
+                padding: 20px 0;
+                background: #d9e4ea;
+                margin-top: 50px;
+                font-size: 15px;
+                color: #3a3a3a;
+            }
+            .footer p {
+                margin: 0;
+            }
+            @media only screen and (max-width: 1150px ) {
+             .wraper{
+                width: 100%;
+             }
+             .column1 , .column2 {
+                    width: 50%
+                }
+                .column3 {
+                    width: 100%;
+                }
+            }
+            @media only screen and (max-width: 900px) {
+                .column1 , .column2 , .column3 {
+                    width: 100%;
+                }
+                .content .column2 img {
+                    width: 100%;
+                }
+            }
+            @media only  screen and (max-width: 650px) {
+                .logo{
+                    float: none;
+                    text-align: center;
+                }
+                .menu {
+                    float: none;
+                    text-align: center;
+                }
+                .header .menu ul li {
+                    float: none;
+                    display: inline-block;
+                }
+                .header .menu ul li a {
+                    padding: 5px;
+                    font-size: 16px;
+                }
+                .hero-slider {
+                    padding-top: 150px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header overflow">
+            <div class="wraper">
+                <div class="logo">
+                    <h1>Best City Guide</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href=#>ice cream</a></li>
+                        <li><a href=#>donuts</a></li>
+                        <li><a href=#>tea</a></li>
+                        <li><a href=#>coffee</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider">
+            <div class="wraper">
+                <img src="cup-cake-logo-icon-vector-29551902.jpg">
+                <h2>The Best City</h2>
+                <h3>The best drinks and eats in the best city ever.</h3>
+            </div>
+        </div>
+        <div class="content overflow">
+            <div class="wraper">
+                <div class="column column1">
+                    <div class="holder1">
+                        <h2>Welcom!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>The purpose of lorem ipsum is to create a natural looking block of text that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.</p>
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                    </div>
+                </div>
+                <div class="column column2">
+                    <div class="holder2">
+                        <h2>Great food</h2>
+                        <div class="text-box">
+                            <img src="bright-realistic-cupcakes-with-various-fillings-assortment-set-isolated-white-background-vector-illustration_1284-19859.jpeg"/>
+                            <div class="text">
+                              <h2>orem ipsum dolor sit amet</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                       </div>
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
+                    </div>
+                </div>
+                <div class="column column3">
+                    <div class="holder3">
+                        <h2>How to get here</h2>
+                        <p>The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.</p>
+                        <p>The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.</p>
+                        <p>Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="footer">
+            <p>residents of the best city ever.</p>
+        </div>
+    </body>
+</html>
